@@ -1,7 +1,7 @@
 <?php
     // TODO : Ecrire dans fichier dev-php.log "Démarrage du programme"
 
-
+$pdo = new PDO("'mysql:host=localhost;dbname=dev-php'")
 
 ?>
 <!DOCTYPE html>
