@@ -1,16 +1,5 @@
 {
-    "name": "frotbre/dev-php",
-    "description": "petit projet pour réviser les bases",
-    "type": "project",
-    "autoload": {
-        "psr-4": {
-            "Frotbre\\DevPhp\\": "src/"
-        }
-    },
-    "authors": [
-        {
-            "name": "Brewen"
-        }
-    ],
-    "require": {}
+    "require": {
+        "vlucas/phpdotenv": "^5.6"
+    }
 }
